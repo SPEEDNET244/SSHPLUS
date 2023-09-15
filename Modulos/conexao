@@ -1630,7 +1630,7 @@ elif [[ "$resposta" = '3' ]]; then
 		clear
 		if ps x | grep -w WebSocket | grep -v grep 1>/dev/null 2>/dev/null; then
 		figlet 'MEGGA SSH' | lolcat
-		echo -e "\E[41;1;37m        💎SECURITY DTproxy CRACKED 2.0💎             \E[0m"
+		echo -e "\E[41;1;37m        💎   SECURITY    💎             \E[0m"
 				echo ""
 				fun_wsswsocksoff() { 
 					pkill WebSocket
@@ -1652,7 +1652,7 @@ elif [[ "$resposta" = '3' ]]; then
 				fun_socks
 			else
 			figlet 'MEGGA SSH' | lolcat
-		echo -e "\E[44;1;37m         💎SECURITY DTproxy  2.0 💎            \E[0m"
+		echo -e "\E[44;1;37m         💎SECURITY       2.0 💎            \E[0m"
 				echo ""
 				echo "$(echo -e "\033[1;32mQUAL PORTA QUER UTILIZAR? \033[1;37m")"
 				read -p '★ Digite a porta 80 ou 8080: ' portasucury
